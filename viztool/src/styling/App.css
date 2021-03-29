@@ -1,0 +1,61 @@
+:root {
+    --text-color: #46494C;
+    /*--background-color: #e0e7e7;*/
+    --background-color: white;
+    --visualisation-background-color: white;
+    --sidebar-background-color: #c3d0d0;
+    --border-color: #91a2a2;
+    --color1: #FF3B3F;
+}
+
+/** Style for the general parts of the web tool **/
+
+/* Class for the main div that excludes the navigation bar */
+.Main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Class for the homepage and about main div and what will be placed here*/
+.HP_About {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--background-color);
+    background-repeat: repeat;
+}
+
+/* Class for the visualisation tool main div and what will be placed here */
+.VisualisationTool {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Class for the side panel in VisualisationTool div and what will be placed here */
+.SidePanel {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 100%;
+    color: black;
+    background-color: var(--sidebar-background-color);
+    border-right: 0.25vw solid var(--border-color);
+}
+
+/* Class for the main view in VisualisationTool div and what will be placed here */
+.VisualisationMainView {
+    background-color: var(--background-color);
+    width: 83vw;
+    right: 0;
+    height: 100%;
+}
+
+.Margin {
+    margin: 2vh 2vw;
+}

@@ -1,0 +1,7 @@
+.hpText {
+    margin: 5vh 20vw;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    cursor: default;
+}

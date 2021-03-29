@@ -1,0 +1,66 @@
+/** Style for the navigation bar on each page **/
+
+/* General navigation bar layout */
+.NavigationBar {
+    width: 100vw;
+    height: 7.8vh;
+    position: relative;
+    overflow: hidden;
+    color: var(--border-color);
+    background-color: var(--background-color);
+    border-bottom: .2vh solid var(--border-color);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* style for each item in styling class NavigatorBar */
+.NavItem {
+    width: auto;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9vw;
+    font-weight: bold;
+}
+
+/* For each item that is navItem, styling when hovering over item */
+.NavItem:hover {
+    background-color: var(--border-color);
+    color: var(--background-color);
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+/* Logo layout in navigation bar */
+.Logo {
+    width: 4vw;
+    height: 90%;
+    float: right;
+    display: inline-block;
+    background-image: url("../MyLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    background-size: contain;
+}
+
+.NavItemRight {
+    width: auto;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+    font-variant: small-caps;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+/* Logo layout when hovering over it */
+.NavItemRight:hover {
+    cursor: pointer;
+}
